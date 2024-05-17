@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- run package  -->
+
+<suite name="Suite" verbose="1">
+    <test name="Page Object Model">
+        <packages>
+
+            <package name="BT_PageObjectModel.Testcases"> </package>
+
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Page Object Model" verbose="1">
+    <test name="Login, Dashboard, Brand"  parallel="classes">
+        <parameter name="browser" value="edge" > </parameter>
+        <classes>
+            <class name="eCommerceCMS.testcases.LoginTest"> </class>
+            <class name="eCommerceCMS.testcases.DashboardTest"> </class>
+            <class name="eCommerceCMS.testcases.BrandTest"> </class>
+        </classes>
+    </test>
+
+    <test name="Category, Product" >
+        <parameter name="browser" value="chrome" > </parameter>
+        <classes>
+            <class name="eCommerceCMS.testcases.CategoryTest"> </class>
+            <class name="eCommerceCMS.testcases.ProductTest"> </class>
+        </classes>
+    </test>
+
+</suite>

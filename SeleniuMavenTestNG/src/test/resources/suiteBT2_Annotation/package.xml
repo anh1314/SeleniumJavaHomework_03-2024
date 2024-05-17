@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- run package  -->
+
+<suite name="Suite" verbose="1">
+    <test name="Add Category">
+        <packages>
+            <package name="BT2_Annotation"> </package>
+        </packages>
+    </test>
+</suite>

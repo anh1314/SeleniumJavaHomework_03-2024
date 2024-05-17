@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- run package  -->
+
+<suite name="Page Object Model" verbose="1">
+    <test name="Login, Dashboard">
+        <parameter name="browser" value="firefox"> </parameter>
+        <classes>
+            <class name="BT_PageObjectModel.Testcases.LoginTest"> </class>
+            <class name="BT_PageObjectModel.Testcases.DashboardTest"> </class>
+        </classes>
+    </test>
+
+    <test name="Category">
+        <parameter name="browser" value="edge"> </parameter>
+        <classes>
+            <class name="BT_PageObjectModel.Testcases.CategoryTest"> </class>
+        </classes>
+    </test>
+
+    <test name="Product">
+        <parameter name="browser" value="chrome"> </parameter>
+        <classes>
+            <class name="BT_PageObjectModel.Testcases.ProductTest"> </class>
+        </classes>
+    </test>
+
+</suite>

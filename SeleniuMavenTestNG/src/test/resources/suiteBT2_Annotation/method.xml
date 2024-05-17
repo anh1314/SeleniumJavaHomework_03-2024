@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- run class  -->
+
+<suite name="Suite" verbose="1">
+    <test name="Add Category">
+      <classes>
+          <class name="BT2_Annotation.Annotation_AddCategory">
+              <methods>
+                  <include name="Login_Navigate" >  </include>
+              </methods>
+          </class>
+          <class name="BT2_Annotation.Annotation_AddCategory">
+              <methods>
+                  <include name="AddNewCategory" >  </include>
+              </methods>
+          </class>
+          <class name="BT2_Annotation.Annotation_AddCategory">
+              <methods>
+                  <include name="getName" >  </include>
+              </methods>
+          </class>
+      </classes>
+    </test>
+</suite>
+

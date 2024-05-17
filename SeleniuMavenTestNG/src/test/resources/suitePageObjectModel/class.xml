@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- run class  -->
+
+<suite name="Suite" verbose="1">
+    <test name="POM-LoginTest">
+        <classes>
+
+            <class name="BT_PageObjectModel.Testcases.LoginTest"> </class>
+
+            <class name="BT_PageObjectModel.Testcases.DashboardTest"> </class>
+
+            <class name="BT_PageObjectModel.Testcases.CategoryTest"> </class>
+
+            <class name="BT_PageObjectModel.Testcases.ProductTest"> </class>
+
+        </classes>
+    </test>
+</suite>
